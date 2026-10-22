@@ -35,6 +35,7 @@ COPY --from=builder /build/target/release/parallel_driver_tx_addr_types /opt/ant
 COPY --from=builder /build/target/release/parallel_driver_tx_raw /opt/antithesis/test/v1/main/
 COPY --from=builder /build/target/release/parallel_driver_tx_consolidate /opt/antithesis/test/v1/main/
 COPY --from=builder /build/target/release/parallel_driver_blocks /opt/antithesis/test/v1/main/
+COPY --from=builder /build/target/release/serial_driver_out_of_order_blocks /opt/antithesis/test/v1/main/
 COPY --from=builder /build/target/release/parallel_driver_invalid_blocks /opt/antithesis/test/v1/main/
 COPY --from=builder /build/target/release/eventually_consistency /opt/antithesis/test/v1/main/
 COPY --from=builder /build/target/release/anytime_gettxoutsetinfo /opt/antithesis/test/v1/main/

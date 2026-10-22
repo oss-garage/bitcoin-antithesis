@@ -49,6 +49,10 @@ name = "parallel_driver_blocks"
 path = "src/bin/parallel_driver_blocks.rs"
 
 [[bin]]
+name = "serial_driver_out_of_order_blocks"
+path = "src/bin/serial_driver_out_of_order_blocks.rs"
+
+[[bin]]
 name = "parallel_driver_invalid_blocks"
 path = "src/bin/parallel_driver_invalid_blocks.rs"
 
